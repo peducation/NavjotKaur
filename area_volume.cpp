@@ -1,6 +1,7 @@
+//This program is about calculating area an volume using class
+// Created by Navjot Kaur
 //
-// Created by jotin on 2020-11-10.
-//
+//Declaration of class and member functions outside the class
 #include <iostream>
 using namespace std;
 #include "area_volume.h"
@@ -25,4 +26,12 @@ void areaVolume::getdata2(){
     cin >>breadth;
     cout <<"Enter height: ";
     cin >>height;
+}
+
+int areaVolume:: area(){
+    return length*breadth;
+}
+
+int areaVolume:: volume1(){
+    return length*breadth*height;
 }

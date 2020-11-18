@@ -1,6 +1,7 @@
+//This program is about calculating area an volume using class
+// Created by Navjot Kaur
 //
-// Created by jotin on 2020-11-10.
-//
+//Defining class and its member functions
 
 #ifndef NAVJOTKAUR_AREA_VOLUME_H
 #define NAVJOTKAUR_AREA_VOLUME_H
@@ -14,12 +15,8 @@ public:
     void setdata(int len, int br, int hei);
     void getdata1();
     void getdata2();
-    int area(){
-        return length*breadth;
-    }
-    int volume(){
-        return length*breadth*height;
-    }
+    int area();
+    int volume1();
 
 };
 
